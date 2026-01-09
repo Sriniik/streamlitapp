@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-import newspaper
+import newspaper4k
 from newspaper import Article
 
 # Replace with your actual Google API Key
@@ -92,3 +92,4 @@ if st.button("Verify Now"):
                 st.warning("No existing fact-checks found for this specific claim. Proceed with caution.")
     else:
         st.info("Please provide a link or text to analyze.")
+
